@@ -1,0 +1,31 @@
+dalam folder values untuk Strings.xml
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+ 
+    <string name="app_name">PreferenceMenu</string> 
+    <string name="menu_keluar">Keluar</string> 
+    <string name="menu_pengaturan">Pengaturan</string> 
+    <string name="title_activity_setting">SettingActivity</string> 
+ 
+</resources>
+
+dalam folder menu untuk activity_main.xml
+<menu xmlns:android="http://schemas.android.com/apk/res/android" > 
+ 
+    <item 
+        android:id="@+id/menu_pengaturan" 
+        android:orderInCategory="100" 
+        android:showAsAction="never" 
+        android:title="@string/menu_pengaturan"/> 
+ 
+    <item 
+        android:id="@+id/menu_keluar" 
+        android:orderInCategory="200" 
+        android:showAsAction="never" 
+        android:title="@string/menu_keluar"/> 
+ 
+</menu>
+
+dalam folder menu untuk activity_setting.xml
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+</menu> 
